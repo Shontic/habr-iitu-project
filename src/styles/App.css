@@ -1,0 +1,37 @@
+.App-header{
+  width: 1200px;
+  margin: 0 auto;
+  display:flex;
+  height: 55px;
+  justify-content: space-between;
+  color: #fff;
+}
+.App-header-left{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.App-logo{
+  font-size: 27px;
+  line-height: 27px;
+  font-weight: 700;
+  color: white;
+  padding-right: 12px;
+  border-right: 1px solid rgb(255, 255, 255, 0.4);
+}
+.App-menu-arrow{
+  padding-left: 12px;
+  font-size: 13px;
+  line-height: 27px;
+  display: block;
+  
+}
+.App-menu{
+  display: none;
+  position: absolute;
+  top: 55px;
+  color: #000;
+}
+.App-menu-arrow:hover ~ .App-menu{
+  display: block;
+}
